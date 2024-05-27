@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,30 @@
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Google Fontawesome Cdn -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
   <!-- Header Area Start -->
-<header>
+  <header>
+      
     <div class="header-wrapper">
-      <div class="navigation-area id="mySidebar" class="sidebar">
+      <div class="navigation-area">
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+        
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="product.html" class="active">Product</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </div>
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">☰</button>
+        </div>
+
+
+
+
         <nav>
           <ul>
             <li><a href="index.html" class="active">Home</a></li>
@@ -28,192 +46,191 @@
         <span>Paris</span>
       </div>
       <div class="description-area">
- <a href="near.html">Near</a>
- <a href="wishlist.html">Wishlist</a>
-      </div>
-    <div id="mySidebar" class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-      
-<li><a href="index.html" class="active">Home</a></li>
-    <li><a href="shop.html" class="active">Shop</a></li>
-    <li><a href="product.html" class="active">Product</a></li>
-      <li><a href="contact.html" class="active">Contact</a></li>
-    </div>
-  <div id="main">
-    <button class="openbtn" onclick="openNav()">☰</button>
-  </div>
-    </div>
-</header>
-<!-- Header Area End -->
-
-
-
-<!-- Hero Area Start -->
-
-<main>
-  <section>
-    <div class="wrapper hero-area">
-      <div class="hero-info">
-        <h3>NOVELTY</h3>
-        <h1>Co-Ed Spring-Summer 2024</h1>
-  
-        <button class="btn-1">Discover The Collection</button>
+        <a href="near.html">Near</a>
+        <a href="wishlist.html">Wishlist</a>
       </div>
     </div>
-    </div>
-  </section>
-  <!-- Hero Area End -->
-  
+   
+  </header>
+  <!-- Header Area End -->
+
+
+
+  <!-- Hero Area Start -->
+
+  <main>
+    <section>
+      <div class="wrapper hero-area">
+        <div class="hero-info">
+          <h3>NOVELTY</h3>
+          <h1>Co-Ed Spring-Summer 2024</h1>
+
+          <button class="btn-1">Discover The Collection</button>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Hero Area End -->
+
 
     <!-- Product Area Start -->
- <section>
-  <div class="wrapper product-area">
-    <div class="product-info wrapper">
-      <div class="product-img">
-        <img src="img/bags.jpg" alt="bags">
-        <a href="product.html"><h4>BAGS</h4>
-</a>
-      </div>
-      <div class="product-img">
-        <img src="img/zeans &pants.jpg" alt="pants">
-        <a href="product.html"><h4>JEANS AND PANTS</h4>
-</a>
-      </div>
-      <div class="product-img">
-        <img src="img/shoes.jpg" alt="shoe">
-        <a href="product.html"><h4>SHOES</h4>
-</a>
-      </div>
-      <div class="product-img">
-        <img src="img/shirts.jpg" alt="shirt">
-        <a href="product.html"><h4>SHIRTS</h4>
-</a>
-      </div>
-     
-    </div>
-    <hr>
-  </div>
- </section>
-<!-- Product Area End -->
-
-<!-- About Area start -->
-<section>
-  <div class="wrapper about-area">
-    <div class="about-info">
-      <h4>BAGS</h4>
-      <h3>Glam Slam</h3>
-      <button class="btn-2">FIND OUT MORE</button>
-    </div>
-  </div>
-</section>
-<!-- About Area End -->
-
-
-<!-- Product Detail Area Start -->
-<section>
-  <div class="wrapper product-detail">
-    <div class="product-img-detail">
-      <img src="img/shoe-1.jpg" alt="">
-    </div>
-    <div class="product-information">
-      <h4>IN EVIDENCE</h4>
-      <h2>Tabi</h2>
-      <p>The Tabi model with split-toe design is inspired by the traditional Japanese socks of the same name from the 15th
-        century and was launched in 1989, on the occasion of the very first Maison Margiela collection.</p>
-      <button class="btn-3">FIND OUT MORE</button>
-    </div>
-  </div>
-</section>
-<!-- Product Detail Area End -->
-
-<!-- Testimonial  Area Start -->
-<section>
-  <div class="wapper tesimonial-area">
-    <div class="testimonial-details">
-        <h4>The Parisian fashion house Maison Margiela bases its codes on the concept of non- <br>
-          conformism and subversion of norms.
-          Appointed Creative Director in 2014, British <br> designer John Galliano uses his own visual language to broaden its
-          values,
-          creating a <br> new technical vocabulary that consolidates Maison Margiela's status as a singular and <br> 
-          autonomous entity in
-          the world of luxury.</h4>
-    </div>
-    <div class="testimonial-info">
-      <h3>RECEIVE THE NEWSLETTER</h3>
-      <p>To discover new collections, events and exclusive content.</p>
-      <label for="email">Email Address :</label>
-      <input type="email" placeholder="Enter Your Email Address">
-        <div class="gender">
-          <input type="radio" name="gender" value="women">
-          <label for="gender">Women</label>
-
-          <input type="radio" name="gender" value="men">
-          <label for="gender">Men</label>
-          <input type="radio" name="gender" value="non-binay">
-          <label for="gender">Non-binary</label>
+    <section>
+      <div class="wrapper product-area">
+        <div class="product-info wrapper">
+          <div class="product-img">
+            <img src="img/bags.jpg" alt="bags">
+            <a href="product.html">
+              <h4>BAGS</h4>
+            </a>
+          </div>
+          <div class="product-img">
+            <img src="img/zeans &pants.jpg" alt="pants">
+            <a href="product.html">
+              <h4>JEANS AND PANTS</h4>
+            </a>
+          </div>
+          <div class="product-img">
+            <img src="img/shoes.jpg" alt="shoe">
+            <a href="product.html">
+              <h4>SHOES</h4>
+            </a>
+          </div>
+          <div class="product-img">
+            <img src="img/shirts.jpg" alt="shirt">
+            <a href="product.html">
+              <h4>SHIRTS</h4>
+            </a>
+          </div>
 
         </div>
-    </div>
-  </div>
-</section>
-<!-- Testimonial  Area End -->
+        <hr>
+      </div>
+    </section>
+    <!-- Product Area End -->
 
-<!-- Contact Area Start -->
-<section>
-  <div class="wrapper contact-area">
-    <div class="contact-details">
-      <h4>CUSTOMER CARE</h4>
-     <a href="contact.html"><p>Contact us</p></a>
-   <p>FAQ</p>
-    <p>Packaging</p>
-    <p>Return form</p>
-    <p>Shipping</p>
-      <p>Boutiques</p>
-      <p>Call us on 02 362 645 60</p>
-    </div>
-
-    <div class="contact-details">
-      <h4>LEGAL AREA</h4>
-    <p>Legal notices</p>
-    <p>Privacy</p>
-    <p>Accessibility statement</p>
-   <p>Whistleblowing</p> 
-    </div>
-
-    <div class="contact-details">
-        
-        <div class="social-area">
-          <button class="btn-4">ITALY ($)</button>
-          <button class="btn-5">TONGUE : ITALIAN </button>
-          <p>FOLLOW US</p>
-          <img class="svg" src="img/instagram.svg" alt="instagram">
-          <img class="svg" src="img/twitter.svg" alt="twitter">
-          <img class="svg" src="img/youtube.svg" alt="youtube">
-          <img class="svg" src="img/msg.svg" alt="msg">
+    <!-- About Area start -->
+    <section>
+      <div class="wrapper about-area">
+        <div class="about-info">
+          <h4>BAGS</h4>
+          <h3>Glam Slam</h3>
+          <button class="btn-2">FIND OUT MORE</button>
         </div>
       </div>
+    </section>
+    <!-- About Area End -->
+
+
+    <!-- Product Detail Area Start -->
+    <section>
+      <div class="wrapper product-detail">
+        <div class="product-img-detail">
+          <img src="img/shoe-1.jpg" alt="">
+        </div>
+        <div class="product-information">
+          <h4>IN EVIDENCE</h4>
+          <h2>Tabi</h2>
+          <p>The Tabi model with split-toe design is inspired by the traditional Japanese socks of the same name from
+            the 15th
+            century and was launched in 1989, on the occasion of the very first Maison Margiela collection.</p>
+          <button class="btn-3">FIND OUT MORE</button>
+        </div>
       </div>
-</section>
-<!-- Contact  Area End -->
+    </section>
+    <!-- Product Detail Area End -->
 
-  <!-- Footer Area Start -->
-<section>
-  <div class="wrapper footer-area">
-<div class="footer-info">
-  <h6>Maison Margelia</h6>
-  <h6>MM6</h6>
-</div>
+    <!-- Testimonial  Area Start -->
+    <section>
+      <div class="wapper tesimonial-area">
+        <div class="testimonial-details">
+          <h4>The Parisian fashion house Maison Margiela bases its codes on the concept of non- <br>
+            conformism and subversion of norms.
+            Appointed Creative Director in 2014, British <br> designer John Galliano uses his own visual language to
+            broaden its
+            values,
+            creating a <br> new technical vocabulary that consolidates Maison Margiela's status as a singular and <br>
+            autonomous entity in
+            the world of luxury.</h4>
+        </div>
+        <div class="testimonial-info">
+          <h3>RECEIVE THE NEWSLETTER</h3>
+          <p>To discover new collections, events and exclusive content.</p>
+          <label for="email">Email Address :</label>
+          <input type="email" placeholder="Enter Your Email Address">
+          <div class="gender">
+            <input type="radio" name="gender" value="women">
+            <label for="gender">Women</label>
 
-<div class="copyright-area">
-  <p>Maison Margiela is part of the OTB group <br>
-  Maison Margiela supports the OTB Foundation <br>
-  Work with us</p>
-  <p>Copyright © 2024 - v3.24.13</p>
-</div>
-  </div>
-</section>
-<!-- Footer Area End -->
-</main>
-<script src="app.js"></script>
+            <input type="radio" name="gender" value="men">
+            <label for="gender">Men</label>
+            <input type="radio" name="gender" value="non-binay">
+            <label for="gender">Non-binary</label>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial  Area End -->
+
+    <!-- Contact Area Start -->
+    <section>
+      <div class="wrapper contact-area">
+        <div class="contact-details">
+          <h4>CUSTOMER CARE</h4>
+          <a href="contact.html">
+            <p>Contact us</p>
+          </a>
+          <p>FAQ</p>
+          <p>Packaging</p>
+          <p>Return form</p>
+          <p>Shipping</p>
+          <p>Boutiques</p>
+          <p>Call us on 02 362 645 60</p>
+        </div>
+
+        <div class="contact-details">
+          <h4>LEGAL AREA</h4>
+          <p>Legal notices</p>
+          <p>Privacy</p>
+          <p>Accessibility statement</p>
+          <p>Whistleblowing</p>
+        </div>
+
+        <div class="contact-details">
+
+          <div class="social-area">
+            <button class="btn-4">ITALY ($)</button>
+            <button class="btn-5">TONGUE : ITALIAN </button>
+            <p>FOLLOW US</p>
+            <img class="svg" src="img/instagram.svg" alt="instagram">
+            <img class="svg" src="img/twitter.svg" alt="twitter">
+            <img class="svg" src="img/youtube.svg" alt="youtube">
+            <img class="svg" src="img/msg.svg" alt="msg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact  Area End -->
+
+    <!-- Footer Area Start -->
+    <section>
+      <div class="wrapper footer-area">
+        <div class="footer-info">
+          <h6>Maison Margelia</h6>
+          <h6>MM6</h6>
+        </div>
+
+        <div class="copyright-area">
+          <p>Maison Margiela is part of the OTB group <br>
+            Maison Margiela supports the OTB Foundation <br>
+            Work with us</p>
+          <p>Copyright © 2024 - v3.24.13</p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Area End -->
+  </main>
+  <script src="app.js"></script>
 </body>
+
 </html>
