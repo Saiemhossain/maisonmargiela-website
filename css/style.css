@@ -64,6 +64,7 @@ img{
   color: white;
   padding: 10px 15px;
   border: none;
+ 
 }
 .openbtn:hover{
   background-color: #444;
@@ -71,7 +72,7 @@ img{
 
 #main{
   transition: margin-left .5s;
-  padding: 16px;
+  
 }
 /* Logo Area Styling*/
 .logo-area{
@@ -80,6 +81,7 @@ img{
   align-items: center;
   justify-content: center;
 flex-direction: column;
+
 
 }
 .logo-area a{
@@ -105,7 +107,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
- padding: 0 1rem;
+ padding: 0 15rem;
 }
 /* Navigation Area Styling*/
 
@@ -682,6 +684,7 @@ font-weight: 400;
 @media (max-width:630px) {
   .openbtn{
   display: block;
+   margin-left: -130px;
 }
   .sidebar{
     padding-top: 15px;
@@ -716,6 +719,10 @@ font-weight: 400;
 @media (max-width:500px) {
   .logo-area{
     display: block;
+ 
+  }
+  .logo-area a{
+
   }
   
  
@@ -794,3 +801,4 @@ font-weight: 400;
     width: 340px;
   }
 }
+
